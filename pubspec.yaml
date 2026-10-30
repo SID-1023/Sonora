@@ -1,0 +1,41 @@
+
+name: sonora
+description: "SONORA - A premium cinematic Flutter music player."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  just_audio: ^0.10.5
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # Living Palette - Extract colors from album artwork
+  palette_generator: ^0.3.3+7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # SONORA Assets
+  assets:
+    - assets/images/
+    - assets/images/album_artwork/
+    - assets/images/backgrounds/
+    - assets/images/icons/
+    - assets/audio/
+    - assets/fonts/
+
+  # Custom fonts will be registered here later.
